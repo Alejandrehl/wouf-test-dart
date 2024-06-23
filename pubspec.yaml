@@ -1,0 +1,9 @@
+name: wouf_test_dart
+description: Wouf development test
+publish_to: "none"
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  http: ^0.13.3
