@@ -8,8 +8,6 @@ Este proyecto contiene una serie de pruebas para evaluar funcionalidades en Flut
 2. Ejecutar los scripts: `dart [NOMBRE_SCRIPT]`
    - `dart 1_request_test.dart`
    - `dart 2_websocket_test.dart`
-   - `dart 3_gps_test.dart`
-   - `dart 4_notifications_test.dart`
 
 ## 1. 🌐 Solicitudes HTTP con Autenticación
 
