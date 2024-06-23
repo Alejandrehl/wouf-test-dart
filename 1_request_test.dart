@@ -11,8 +11,8 @@ Future<void> fetchData() async {
 
     if (response.statusCode == 200) {
       try {
-        final data = jsonDecode(response.body);
-        print('Decoded data: $data');
+        final data = jsonDecode(response.body) as Map<String, dynamic>;
+        print('Test Result: $data');
       } catch (e) {
         print('Error decoding JSON: $e');
       }
@@ -25,6 +25,6 @@ Future<void> fetchData() async {
   }
 }
 
-void main() {
-  fetchData();
+void main() async {
+  await fetchData();
 }
