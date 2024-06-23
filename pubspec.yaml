@@ -7,3 +7,4 @@ environment:
 
 dependencies:
   http: ^0.13.3
+  web_socket_channel: ^3.0.0
