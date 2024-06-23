@@ -3,7 +3,9 @@
 ## ¿Cómo empezar?
 
 1. Instalar dependencias: `flutter pub get`
-2. Ejecutar los scripts: `dart [NOMBRE_SCRIPT]`, ejemplo: `dart 1_request_test.dart`.
+2. Ejecutar los scripts: `dart [NOMBRE_SCRIPT]`
+   - `dart 1_request_test.dart`
+   - `dart 2_websocket_test.dart`
 
 ## 1. Requests HTTP con Autenticación
 
