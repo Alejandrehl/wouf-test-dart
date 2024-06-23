@@ -15,5 +15,8 @@ respuesta del servidor: `{ message: WOUF! 35813 }`.
 ## 2. Conexiones WebSocket con Autenticación
 
 Implementa una conexión a un WebSocket usando el paquete `web_socket_channel`. La URL es  `ws://54.145.104.165:55333/socket`, con el token `Bearer token123`. Indica cuál es la respuesta del
-servidor: Para esta prueba a pesar de las multiples pruebas que realicé y que confio en que mi código esta bien, el resultado siempre fué: `{ "error": "Unauthorized" }.`.
+servidor: Para esta prueba a pesar de las multiples pruebas que realicé y que confio en mi código el resultado siempre fué: `{ "error": "Unauthorized" }.`.
 
+## 3. GPS y Localización
+
+Escribe un código en Dart usando el paquete `geolocator` que obtenga la ubicación actual del dispositivo y muestre la latitud y longitud en la consola.
